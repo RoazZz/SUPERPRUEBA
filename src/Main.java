@@ -15,6 +15,7 @@ public class Main {
             imprimir(bf);
         }catch (IOException e){
             e.printStackTrace(); }
+            System.out.println("LOL"); 
     }
     public static void imprimir(BufferedReader bf) throws IOException{
         String nombre = bf.readLine();
